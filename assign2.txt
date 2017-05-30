@@ -1,0 +1,48 @@
+Helpline :P
+
+? for help
+?? to search a package
+example()
+demo()
+------------------------------------------------------------------------------
+1. Variables
+assign, re-assign
+
+1. Functions
+
+rep()
+
+sum()
+pow()
+sqrt()
+
+Basic Statistics: Mean, Median, Mode & Standard Deviation
+
+Files
+list.files()
+
+source()
+Reading files
+x<- read.csv()
+y<- read.table("infantry.txt", sep="\t", header=TRUE)
+z<- read.json()
+
+Vectors
+Create a vector with range 275 to 75 with interval 5, remove 2 from each component, make a barplot of it and save it.
+Make a scatterplot of it where Y axis its square root values, save it.
+
+Real world usage of
+
+1. Matrices
+
+Elevation map of a sandy beach.
+elevation <- matrix(1, 10, 10)
+elevation[3, 7] <- 0
+elevation[4, 6] <- 2
+contour(elevation)
+persp(elevation)
+Save the plots. What are contour and persp functions?
+
+2. Data Frames
+Now take some real world data, ex. crime rate by countries and irregioosity(atheism) by country, find relationship between them.
+save the plots.
